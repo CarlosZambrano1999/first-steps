@@ -7,10 +7,8 @@ export const metadata: Metadata = {
 };
 
 
-export const ContactPage = () => {
+export default function ContactPage() {
   return (
     <span className="text-7xl">Contact Page</span>
   )
 }
-
-export default ContactPage;
